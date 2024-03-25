@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Hurtownia</title>
+
+    <link rel="stylesheet" href="./styl4.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./logo.png" alt="hurtownia" class="logo" />
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="list-item">
+            <a href="./index.html" class="header-nav-link main-page"
+              >Strona główna</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="./zamowienia.html" class="header-nav-link orders"
+              >Zamówienia</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="./blog.html" class="header-nav-link blog-about-coffee"
+              >Blog o kawie</a
+            >
+          </li>
+          <li class="list-item">
+            <a
+              href="http://gatunki-kawy.pl"
+              class="header-nav-link other"
+              rel="noopener noreferrer"
+              >Odwiedź także</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="baner-section">
+        <h1 class="baner-title">Hurtownia kawy</h1>
+      </section>
+      <section class="left-main-section">
+        <h2 class="left-section-title">Oferty</h2>
+        <ol class="left-section-list">
+          <li class="list-item">Kawa palona Arabica</li>
+          <li class="list-item">Kawa palona Robusta</li>
+          <li class="list-item">Kawa bezkofeinowa</li>
+          <li class="list-item action">Kawa zielona</li>
+        </ol>
+      </section>
+      <section class="right-main-section">
+        <form class="right-section-form">
+          <label for="coffeeNumber" class="form-label">Podaj numer kawy:</label
+          ><input
+            type="number"
+            name="coffeeNumber"
+            id="coffeeNumber"
+            class="form-input"
+          /><label for="coffeeWeight" class="form-label"
+            >Podaj wagę w dekagramach:</label
+          ><input
+            type="number"
+            name="coffeeWeight"
+            id="coffeeWeight"
+            class="form-input"
+          /><button
+            class="form-button submit"
+            name="submitButton"
+            type="submit"
+          >
+            Zamów
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">
+        Stronę pezygotował: <strong>Vialov Vlad</strong>
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

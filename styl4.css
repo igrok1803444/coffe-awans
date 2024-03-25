@@ -1,0 +1,104 @@
+html {
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+
+  height: 100px;
+
+  background-color: rgb(162, 117, 87);
+}
+
+.header-nav {
+  text-align: right;
+}
+.header-nav-list {
+  margin: 0;
+
+  padding: 0;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  list-style: none;
+}
+
+.header-nav-link {
+  margin: 10px;
+
+  padding: 20px;
+
+  border: 1px solid rgb(65, 98, 85);
+
+  font-size: 150%;
+  line-height: 100px;
+  color: rgb(65, 98, 85);
+}
+
+main {
+  display: grid;
+
+  grid-template-columns: repeat(2, 50%);
+}
+.baner-section {
+  grid-column-start: span 2;
+
+  padding: 30px;
+
+  background-color: rgb(74, 45, 32);
+
+  color: #fff;
+  text-align: center;
+}
+.baner-title {
+  letter-spacing: 10px;
+}
+.left-main-section {
+  height: 500px;
+
+  background-color: rgb(162, 117, 87);
+
+  color: #fff;
+}
+
+.left-section-list .list-item.action {
+  text-decoration: line-through;
+}
+.right-main-section {
+  height: 500px;
+
+  background-color: rgb(162, 117, 87);
+
+  color: #fff;
+}
+
+.form-input {
+  display: block;
+}
+.form-button.submit {
+  display: block;
+}
+.footer {
+  padding: 30px;
+
+  background-color: rgb(74, 45, 32);
+
+  color: #fff;
+  text-align: center;
+}
+
+main.blog-main {
+  min-height: 700px;
+
+  background-color: rgb(162, 117, 87);
+
+  color: #fff;
+}
+.main-text {
+  margin: auto auto;
+  grid-column: span 2;
+
+  text-align: center;
+}
